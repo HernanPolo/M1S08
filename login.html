@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="script.js" defer></script>
+    <style>
+        body{
+            display: flex;
+            background:black;
+            color: antiquewhite;
+            justify-content: center;}
+        main{
+            border: solid;
+            width: 500px;
+            padding:35px;
+            margin-top:10%;
+        }
+        form{
+            text-align: center;    
+        }
+        label{
+            margin-top: 8px;
+           display: flex;
+           padding-left:10%;
+        }
+        input{
+            margin-top:5px ;
+            width:80%;
+        }
+        button{
+            margin-top:20px;
+            display:flex;
+            margin-left: 73%;
+            border-radius: 5px;
+            background:antiquewhite;
+            
+        }
+       </style>
+</head>
+<body>
+    <header></header>
+  <main>
+    <h1> Acesse a plataforma </h1>
+    <form>
+        <label for="email">E-mail</label>
+      
+        <input type="email" name="email" id="email" placeholder="Digite seu E-mail" required/> 
+      
+        <label for="senha">Senha</label>
+      
+        <input type="password" name="senha" id="senha" placeholder="Digite a sua senha" required/>
+        <button>INGRESAR</button>
+    </form>
+</main>
+</body>
+</html>
